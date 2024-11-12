@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="palindrome.css">
+  </head>
+  <body>
+    <h1>Is it a palindrome?</h1>
+    <section id="palindrome-checker" class="palindrome-checker">
+      <span id="enter-text" class="enter-text">Enter in text to check for a palindrome:</span>
+      <input id="text-input" class="text-input" required>
+      <button id="check-btn" class="check-btn">Check</button>
+      <p class="result" id="result"></p>
+      
+    </section>
+    <section class="rules" id="rules">
+      <button class="dropdown-toggle" id="dropdown-toggle">
+        Rules <span class="arrow">&#9660;</span>
+      </button>
+      <p class="palindrome-rules" id="palindrome-rules">A palindrome is a word, phrase, or sequence that reads the same backwards as forwards, ignoring punctuation, case, and spacing. For example 'kayak' and 'civic' are palindromes, but 'Saksham is a wanker' is not.</p>
+    </section>
+
+    <script src="palindrome.js"></script>  
+  </body>
+
+
+</html>
