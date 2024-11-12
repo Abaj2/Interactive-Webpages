@@ -1,0 +1,71 @@
+body {
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+}
+.enter-number-text {
+    color: black;
+    position: relative;
+    bottom: 140px;
+}
+
+.phone {
+    background-color: black;
+    width: 225px;
+    height: 450px;
+    border-radius: 4%;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    z-index: 5;
+}
+.phone-screen {
+    background-color: grey;
+    height: 370px;
+    width: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    z-index: 4;
+    margin-top: 40px;
+}
+input {
+    border: 2px solid black;
+    position: relative;
+    bottom: 125px;
+    height: 30px;
+}
+.phone-camera {
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+}
+.phone-check-button {
+    width: 60px;
+    height: 25px;
+    background: linear-gradient(white, grey);
+    cursor: pointer;
+    margin-top: 5px;
+
+
+}
+
+.phone-clear-button {
+    width: 60px;
+    height: 25px;
+    background: linear-gradient(white, grey);
+    cursor: pointer;
+    margin-top: 5px;
+
+}
